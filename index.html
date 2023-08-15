@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Responsive-Website</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <nav>
+            <ul class= "topnav" id="dropdownClick">
+                <li><a href ="#home">Home</a></li>
+                <li><a href ="#news">News</a></li>  
+                <li><a href ="#contact">Contact</a></li>  
+                <li><a href ="#about">About</a></li>
+                <li class="topnav-right"><a href ="#signin">Sign In</a></li>  
+                <li class="topnav-right"><a href ="#signout">Sign Out</a></li> 
+                <li class="dropdownIcon"><a href ="javascript:void(0);" onclick ="dropdownMenu()">&#9776;</a></li>  
+            </ul>
+        </nav>
+        
+         <div class="container" id="section-1-gradient">
+             <div class="row">
+                 <div class="col-6 ">
+                    <div class= "leftside-col">
+                        <h1 class="large">Crazy Redness</h1>
+                        <h1 class="large">Made For Developers</h1>
+                     </div>
+                     <form>
+                         <div class="leftside-col">
+                             <h2>user name</h2>
+                            <input class="input box" name="user name" type="text" placeholder="username">
+                             <h2>password</h2>
+                            <input class="input box" name="password" type="text" placeholder="password">
+                            <input id="submit-button" name="submit" type="submit" placeholder="submit">
+                         </div>
+                     </form>
+                 </div>
+                 <div class="col-6">
+                     <div class="rightside-col">
+                         <div class="VedioContainer">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/uPBX8wkroo8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                         </div>
+                 </div>
+             </div>
+        </div>
+        </div>
+        
+        <header>
+            <h1 class="section2Header">The Standards Of Awesome</h1>    
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="box">
+                        <div class="box">
+                            <div class="icon">
+                <img src="580b57fcd9996e24bc43c325.png" 
+                     height="75", width="75" >
+                             </div>
+                            <label>Chat With Me</label>
+                            <p>It has survived not only five centuries, but also the leap into electronic</p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-4">
+                    <div class="box">
+                        <div class="box">
+                            <div class="icon">
+                <img src="580b57fcd9996e24bc43c326.png" 
+                     height="75", width="75" >
+                             </div>
+                            <label>Learn to code</label>
+                            <p>It has survived not only five centuries, but also the leap into electronic</p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-4">
+                    <div class="box">
+                        <div class="box">
+                            <div class="icon">
+                <img src="WhatsApp Image 2022-08-19 at 11.43.36 AM.jpeg" 
+                     height="75", width="75" >
+                             </div>
+                            <label>Build an Empire</label>
+                            <p>It has survived not only five centuries, but also the leap into electronic</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button class="Learnmore">Learn More</button>
+                </div>
+            </div>
+        </div> 
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-7">
+                    <article>
+                        <p>
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                        </p>
+                    </article>
+                </div>
+                <div class="col-5">
+                    <div class="slopeIcon">
+                        <img src="pngegg.png" width="250" height="250">
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footsy" >
+            <div class="row">
+                <div class="col-3">
+                <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Blogs</li>
+                        <li>Carrers</li>
+                    </ul>    
+                </div>
+                <div class="col-3">
+                <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Blogs</li>
+                        <li>Carrers</li>
+                    </ul>    
+                </div>
+                <div class="col-3">
+                <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Blogs</li>
+                        <li>Carrers</li>
+                    </ul>    
+                </div>
+                <div class="col-3">
+                <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Blogs</li>
+                        <li>Carrers</li>
+                    </ul>    
+                </div>
+            </div>
+        </footer>
+            
+        <script>
+            function dropdownMenu() {
+                var x = document.getElementById("dropdownClick");
+                if(x.className === "topnav"){
+                    x.className += " responsive";
+                    /*Change topnav to topnav.responsive*/
+                }else{
+                    x.className = "topnav";
+                }
+            }
+        </script>
+            
+    </body>
